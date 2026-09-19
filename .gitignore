@@ -1,7 +1,9 @@
-# Derived intermediates, regenerated from your photo on every build.
-assets/source-cutout.png
-assets/source-prepped.png
+# Ignore everything by default. The rendered README only needs the three SVGs
+# below, plus README.md and this ignore file.
+*
 
-__pycache__/
-*.pyc
-.venv/
+!.gitignore
+!README.md
+!ascii-portrait.svg
+!contrib-heatmap.svg
+!info-card.svg
